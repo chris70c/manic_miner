@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="Christian Corti">
+  <meta name="keywords" content="commodore,amiga,c64,c128,zx spectrum,soundtracker,protracker,delta music,future composer,brooke,hippel,hubbard,joseph,whittaker,flod,fsid,sid,sidplay,chip,tracker,modules,music,samples,retro,unpack,javascript,css,coding,tutorials,html games,webgl">
+  <title>Manic Miner | NEOART Costa Rica</title>
+  <link type="text/css" rel="stylesheet" media="all" href="assets/neoart.css">
+  <link type="image/x-icon" rel="icon" href="assets/favicon.ico">
+  <script type="text/javascript" src="assets/neoart.js"></script>
+<style type="text/css">
+.neo-content {
+  background:             #000;
+  width:                  100%;
+}
+.neo-frame section {
+  padding-top:            50%;
+  position:               relative;
+}
+.neo-frame iframe {
+  border:                 none;
+  height:                 100%;
+  left:                   0;
+  margin:                 0;
+  overflow:               hidden;
+  padding:                0;
+  position:               absolute;
+  top:                    0;
+  width:                  100%;
+}
+</style>
+<script type="text/javascript">
+  window.addEventListener("load", () => {
+    document.querySelector("iframe").contentWindow.focus();
+  }, {once:true});
+</script>
+</head>
+<body>
+  <div class="neo-container">
+    <header class="neo-header">
+      <div></div>
+      <p><span>Costa Rica</span></p>
+      <picture>
+        <source type="image/svg+xml" srcset="images/logo-small.svg" media="(max-width:719px)">
+        <img src="images/logo.svg" alt="NEOART">
+      </picture>
+    </header>
+    <div class="neo-body">
+      <aside class="neo-nav">
+        <div>
+          <nav>
+            <a href="index.htm">Home</a>
+            <a href="blog.htm">Blog</a>
+            <a href="flod.htm">FLOD</a>
+            <a href="fsid.htm">FSID</a>
+            <a href="flectrum.htm">Flectrum</a>
+            <a href="unpacker.htm">Unpacker</a>
+            <a href="intros.htm">Intros</a>
+            <span>Manic Miner</span>
+            <a href="download.htm">Download</a>
+            <a href="contact.htm">Contact</a>
+          </nav>
+        </div>
+      </aside>
+      <div class="neo-content">
+        <div class="neo-frame">
+          <section>
+            <iframe src="manic/index.htm" allowfullscreen scrolling="no"></iframe>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer class="neo-footer">
+      <span>Copyright 2018 NEOART Costa Rica</span>
+    </footer>
+  </div>
+</body>
+</html>
